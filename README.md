@@ -25,7 +25,6 @@ The project uses the following technologies:
 ## Project Workflow
 
 1. **Video Upload**: Users upload their recorded videos to the server using the app. FastAPI handles the upload, ensuring the video is processed securely.
-   - ![Sample Video Upload](basketball/img1.png) ![vid2](basketball/img2.png)
 
 2. **Activity Detection**:
    - **Football**: Detects and tracks the ball during the video, identifies goal attempts, and classifies goals into different sections (e.g., left top, right bottom). Outputs accuracy, goal count, and detailed classification.
